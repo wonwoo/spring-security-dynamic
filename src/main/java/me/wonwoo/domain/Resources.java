@@ -1,6 +1,7 @@
 package me.wonwoo.domain;
 
 import lombok.Data;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -11,6 +12,7 @@ import static javax.persistence.GenerationType.IDENTITY;
 @Entity
 @Table(name = "resources")
 @Data
+@ToString(exclude = {"roleResources"})
 public class Resources {
 
   @Id
