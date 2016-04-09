@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
+<head>
+    <title tiles:fragment="title">Messages : Create</title>
+
+</head>
+<body>
+    <h4>Your role is : </h4>
+    <h4 th:text="${roles}"></h4>
+    <a href="logout"> Logout</a>
+
+    <a href="user">user role</a>
+
+    <a href="admin">admin role</a>
+
+</body>
+</html>
