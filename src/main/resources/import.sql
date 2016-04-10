@@ -9,7 +9,7 @@ insert  into `role_resource`(`ID`,`ROLE_ID`,`RESOURCE_ID`) values (1,1,2);
 insert  into `role_resource`(`ID`,`ROLE_ID`,`RESOURCE_ID`) values (2,2,1);
 insert  into `role_resource`(`ID`,`ROLE_ID`,`RESOURCE_ID`) values (3,1,3);
 insert  into `role_resource`(`ID`,`ROLE_ID`,`RESOURCE_ID`) values (7,2,3);
-insert  into `role_resource`(`ID`,`ROLE_ID`,`RESOURCE_ID`) values (8,1,1);
+--insert  into `role_resource`(`ID`,`ROLE_ID`,`RESOURCE_ID`) values (8,1,1);
 
 
 insert  into `user`(`ID`,`USERNAME`,`PASSWORD`) values (1,'wonwoo','wonwoo');

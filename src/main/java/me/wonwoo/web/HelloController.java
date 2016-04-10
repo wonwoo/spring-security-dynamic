@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
-
 @Controller
 public class HelloController {
 
