@@ -1,4 +1,4 @@
-package me.wonwoo.security.service;
+package me.wonwoo.service;
 
 import lombok.extern.slf4j.Slf4j;
 import me.wonwoo.domain.User;
@@ -35,5 +35,4 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     return new UserDetail(user, userRoles);
   }
-
 }

@@ -10,7 +10,6 @@ import java.util.Map;
 
 import static java.util.stream.Collectors.*;
 
-@Component
 public class CacheManager implements ApplicationListener<CacheEventMessage> {
 
   private Map<String, List<AuthoritiesDto>> authorities;
@@ -31,17 +30,17 @@ public class CacheManager implements ApplicationListener<CacheEventMessage> {
     // grouping
     // url => roles
 
-//    String dbUrl;
+//    String url;
 //    for (UserRoleDto userRoleDto : event.getUserRoleDto()) {
-//      dbUrl = userRoleDto.getUrl();
-//      if (this.urlRoles.containsKey(dbUrl)) {
-//        List<String> roles = this.urlRoles.get(dbUrl);
+//      url = userRoleDto.getUrl();
+//      if (this.urlRoles.containsKey(url)) {
+//        List<String> roles = this.urlRoles.get(url);
 //        roles.add(userRoleDto.getRoleName());
 //
 //      } else {
 //        List<String> roles = new ArrayList<>();
 //        roles.add(userRoleDto.getRoleName());
-//        this.urlRoles.put(dbUrl, roles);
+//        this.urlRoles.put(url, roles);
 //      }
 //    }
   }

@@ -13,11 +13,11 @@ public class RoleResourceService {
   private RoleResourceRepository roleResourceRepository;
 
   @Autowired
-  private ResourceMetaService resourceMetaService;
+  private ResourceMetaService resourceMetaServiceImpl;
 
   @Transactional
   public void delete(Integer id){
     roleResourceRepository.delete(id);
-    resourceMetaService.findAllResources();
+    resourceMetaServiceImpl.findAllResources();
   }
 }

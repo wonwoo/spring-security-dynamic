@@ -26,7 +26,7 @@ public class User {
   @Column(name = "USERNAME", unique = true, length = 50)
   private String username;
 
-  @Column(name = "PASSWORD", length = 50)
+  @Column(name = "PASSWORD", length = 200)
   private String password;
 
   @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")

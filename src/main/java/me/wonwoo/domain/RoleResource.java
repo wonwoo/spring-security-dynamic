@@ -26,5 +26,4 @@ public class RoleResource {
   @JoinColumn(name = "RESOURCE_ID")
   private Resources resources;
 
-  private String name;
 }
